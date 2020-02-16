@@ -1,0 +1,105 @@
+
+<html>
+<head>
+    <title>Student Registration For/title></title>
+</head>
+ 
+<body>
+<table align="center" cellpadding = "7">
+
+<tr>
+    <td>
+        <h3>STUDENT REGISTRATION FORM</h3>
+    </td>
+</tr>
+
+<style>
+    body{
+            background-color: rgb(207, 225, 236);
+        }
+</style>
+
+<!---student first middal and last name --->
+ <tr>
+   <td>  
+   <b>First name:</b><br> <input type="text" name="fname" placeholder="First name" maxlength="20"><br>
+   </td>
+ </tr>
+
+ <tr>
+    <td>
+     <b>Middal name:</b><br> <input type="text" name="fname" placeholder="Middal name" maxlength="20"><br>
+    </td>
+</tr>
+
+<tr>
+    <td>
+     <b>Last name:</b><br> <input type="text" name="fname" placeholder="Last name" maxlength="20"><br>
+    </td>
+</tr>
+
+<!---e-mail address--->
+<tr>    
+    <td>
+    <b>E-mail:</b><br> <input type="text" name="fname" placeholder="E-mail" maxlength="100"><br> 
+    </td>
+</tr>
+
+<!---gender --->
+<tr>
+   <td>
+    <b>Date_Of_Birth:</b><br> <input type="text" name="fname" placeholder="DD/MM/YYYY" maxlength="10"><br>
+</td>
+</tr>
+
+<!---Gender --->
+<tr>
+    <td><b>Gender :</b>
+    Male <input type="radio" name="Gender" value="Male" />
+    Female <input type="radio" name="Gender" value="Female" />
+    Other <input type="radio" name="Gender" value="Other" />
+    </td>
+    </tr>
+
+<!--Mobile Number --->
+<tr>
+   <td>   
+<b>Mobile Number :</b><br>
+<select>
+  <option>+91</option>
+  <option>+92</option>
+  <option>+93</option>
+  <option>+94</option>
+  <option>+95</option>
+  </select>
+  <input type="text" name="Mobile Number" placeholder="98224*****" maxlength="10"><br>
+</tr>
+   </td>
+</tr>
+
+<!---Branch --->
+<tr>
+   <td>
+    <b>Branch :</b><br>
+    <form action="/action_page.php">
+  <select name="Branch" size="4" multiple>
+    <option value="Computer">Computer</option>
+    <option value="IT">IT</option>
+    <option value="Civil">Civil</option>
+    <option value="Electrical">Electrical</option>
+    <option value="Mechanical">Mechanical</option>
+  </select>
+   </td>
+</tr>
+
+<!---Submit and Reset --->
+<tr>
+    <td>
+    <input type="submit" value="Submit" >
+    <input type="submit" value="Cancle">
+    </td>
+</tr>    
+</table>
+    </form>
+  </body>
+</html>
