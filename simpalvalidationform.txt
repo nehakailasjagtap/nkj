@@ -1,0 +1,45 @@
+
+<html>
+    <head>
+        <title>username and password validation form</title>
+    </head>
+
+<body>
+  <script>  
+  function Rform()
+  {  
+    var name=document.myform123.name.value;  
+    var password=document.myform123.password.value;  
+  
+    if (name==null || name=="")
+    {  
+      alert("Name can't be blank");  
+      return false;  
+    }
+    else if(password.length<6)
+    {  
+      alert("Password must be at least 6 characters long.");  
+      return false;  
+    }  
+   } 
+   </script>  
+
+<body>  
+<form name="myform123" onsubmit="return Rform()" >  
+    <h3>REGISTRATION FORM</h3>
+
+   Username : <input type="text" name="name" placeholder="username" maxlength="30">
+   <br/>  
+
+   Password : <input type="password" name="password" placeholder="password">
+   <br/>  
+
+   <input type="submit" value="REGISTER" name="submit">
+   <input type="reset" value="CANCLE" name="Reset">  
+
+   <div><h6>NOTE : Enter Correct Username And Password</h6></div>
+</form>  
+</body>
+</html>
+
+ 
