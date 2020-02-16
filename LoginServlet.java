@@ -15,8 +15,8 @@ public class LoginServlet extends HttpServlet
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
         
-        String st1=req.getParameter("user_name");
-        String st2=req.getParameter("user_password");
+        String st1=req.getParameter("username");
+        String st2=req.getParameter("userpassword");
         
         if(st1.equals("nehajagtap")||st2.equals("neha123"))
         {
