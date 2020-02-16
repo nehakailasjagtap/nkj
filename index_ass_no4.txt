@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>...Registration Form...</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="LoginServlet" method="get">
+            Username:<input type="text" name="user_name" />
+            <br><br>
+            Password:<input type="Password" name="user_password"/>
+            <br><br>
+            <input type="Submit" value="login"/>
+            
+            
+        </form>
+        <div>enter correct username and password</div>
+    </body>
+</html>
